@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Styles and Background Images</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #E6E6FA;
+            margin: 20px;
+        }
+
+        .container {
+            background-color: #365F75;
+            padding: 25px;
+            border: 1px solid #CCCCCC;
+        }
+
+        h1 {
+            color: #F5D6B5;
+            font-family: Georgia, serif;
+        }
+
+        h2 {
+            color: #C5DDDD;
+        }
+
+        .serif {
+            font-family: Georgia, serif;
+            color: #A08A70;
+        }
+
+        .sans {
+            font-family: Arial, sans-serif;
+            color: #FFF0D9;
+        }
+
+        .mono {
+            font-family: monospace;
+            color: #A08A70;
+        }
+
+        #special {
+            background-color: #FFF0D9;
+            color: #995344;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        .panel {
+            background-color: #D8EEEE;
+            background-image:
+                radial-gradient(circle, #F5D6B5 8px, transparent 9px);
+            background-size: 100px 80px;
+            padding: 20px;
+            border: 1px solid #C5DDDD;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <p style="color:#A65D4E;">
+        <b>Experiment No. 8</b>
+    </p>
+
+    <h1>CSS Styles and Background Images</h1>
+
+    <p>
+        A simple page showing how CSS selectors can change
+        fonts, colors, and backgrounds.
+    </p>
+
+    <hr>
+
+    <div style="background-color:#F3F9F9; padding:15px;">
+
+        <h2>Different Font Styles</h2>
+
+        <p class="serif">
+            This paragraph uses a serif font style.
+        </p>
+
+        <p class="sans">
+            This paragraph uses a sans-serif font style.
+        </p>
+
+        <p class="mono">
+            This paragraph uses a monospace font style.
+        </p>
+
+        <p id="special">
+            This text is styled with an ID selector
+            and a different color.
+        </p>
+
+    </div>
+
+    <br>
+
+    <div class="panel">
+
+        <h2>Background Image on an Element</h2>
+
+        <p>
+            This panel has its own background pattern.
+            The page background is set separately on the body.
+        </p>
+
+    </div>
+
+    <hr>
+
+    <small>
+        CSS selectors used: body, h1, classes, and an ID.
+    </small>
+
+</div>
+
+</body>
+</html>
